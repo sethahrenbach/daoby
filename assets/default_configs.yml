@@ -1,0 +1,14 @@
+# This is the config file for the bot.  Set these values to the desired parameters for your bot instance.
+
+prefix: +
+
+# Database variables: these determine how to connect to the database.  The default configurations will only work
+# if you are running a PostgreSQL database on the same machine with default settings.
+database:
+  lang: postgresql # language of the database.  Bot is only tested for PostgreSQL but others may work
+  host: localhost
+  port: 5432
+  name: daoby # database name, not user
+  user: postgres
+  pass: postgres
+  enable_logs: false # If set to true, will enable logging the database interactions to the console
