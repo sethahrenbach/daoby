@@ -16,6 +16,7 @@ pynacl
 python-dateutil
 python-editor
 pytube
+pyyaml
 six
 SQLAlchemy
 websockets
